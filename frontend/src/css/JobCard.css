@@ -68,5 +68,6 @@
   
   .apply-btn:hover {
     background-color: #0097a7;
+    transform: scale(1.05);
   }
   
