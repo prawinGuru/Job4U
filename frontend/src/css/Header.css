@@ -14,6 +14,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+  float: right;
 }
 
 .nav-links {
@@ -82,4 +83,24 @@
 .salary-values {
   font-size: 0.9rem;
   color: #333;
+}
+.filter-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+}
+
+.filter-input,
+.filter-dropdown,
+.salary-range {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  height: 48px;
 }
